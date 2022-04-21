@@ -345,7 +345,7 @@ def About():
         
     col12.text("")
     col12.text("")
-    col12.markdown('<h3 style="text-align: center; font-weight: bold"><a href="mailto:nigelmartis0@gmail.com">CONTACT US</a></h3>', unsafe_allow_html=True)
+    col12.markdown('<h3 style="text-align: center; font-weight: bold"><a href="mailto:anenbergresearch@gmail.com">CONTACT US</a></h3>', unsafe_allow_html=True)
 
 
 app.run()
