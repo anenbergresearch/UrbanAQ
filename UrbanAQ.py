@@ -65,7 +65,7 @@ def home():
     my_expander1 = st.expander('Description', expanded=True)  
     col1, col2, col3 = my_expander1.columns([1,7,1])
     #col2.markdown("<h3 style='text-align: left; font-weight: bold '>Description:</h1>", unsafe_allow_html=True)
-    col2.markdown("<p style='text-align: justify;'>This website provides estimates of fine particulate matter (PM<sub>2.5</sub>), nitrogen dioxide (NO<sub>2</sub>) and ozone (O<sub>3</sub>) concentrations and associated disease burdens in >13,000 urban areas globally. Estimates for PM<sub>2.5</sub> and NO<sub>2</sub> are available from 2000-2019. Estimates for O<sub>3</sub> are currently available for the year 2019. Methods are consistent with the Global Burden of Disease 2019 study, to the extent possible. Please visit our <b>More Information</b> and <b>Acknowledgements</b> sections by navigating to the 'About' page.</p>", unsafe_allow_html=True)
+    col2.markdown("<p style='text-align: justify;'>This website provides estimates of fine particulate matter (PM<sub>2.5</sub>), nitrogen dioxide (NO<sub>2</sub>) and ozone (O<sub>3</sub>) concentrations and associated disease burdens in >13,000 urban areas globally. Estimates for PM<sub>2.5</sub>, O<sub>3</sub>, and NO<sub>2</sub> are available from 2000-2019. Methods are consistent with the Global Burden of Disease 2019 study, to the extent possible. Please visit our <b>More Information</b> and <b>Acknowledgements</b> sections by navigating to the 'About' page.</p>", unsafe_allow_html=True)
 
             
     col2.text("")
